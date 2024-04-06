@@ -1,0 +1,38 @@
+#spring:
+#   application:
+#     name: PROJECT-SERVICE
+#datasource:
+#  driver-class-name: com.mysql.cj.jdbc.Driver
+#  url: jdbc:mysql://localhost:3306/buildlive_project
+#  username: root
+#  password: '@77SUDHA'
+#jpa:
+#  hibernate:
+#    ddl-auto: update
+#  database: mysql
+#  database-platform: org.hibernate.dialect.MySQLDialect
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8060
+spring:
+  application:
+    name: PROJECT-SERVICE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/buildlive_project
+    username: root
+    password: '@77SUDHA'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+
