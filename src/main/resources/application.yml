@@ -12,3 +12,4 @@ spring:
         native:
           search-locations: classpath:/configurations
 
+
