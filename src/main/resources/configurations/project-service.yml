@@ -27,9 +27,9 @@ spring:
     name: PROJECT-SERVICE
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/buildlive_project
-    username: root
-    password: '@77SUDHA'
+    url: jdbc:mysql://ls-563b8ec68f8dabb8b2906d3d1e42e400956564f9.c50qwuc20o0g.ap-south-1.rds.amazonaws.com/buildlive_project
+    username: dbmasteruser
+    password: 'SudhaRajan'
   jpa:
     hibernate:
       ddl-auto: update
