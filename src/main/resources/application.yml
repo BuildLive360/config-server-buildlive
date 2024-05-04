@@ -12,4 +12,9 @@ spring:
         native:
           search-locations: classpath:/configurations
 
-
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://13.127.132.74:8761/eureka}
