@@ -3,7 +3,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://13.127.132.74:8761/eureka}
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
 
 server:
   port: 8090
@@ -12,9 +12,9 @@ spring:
     name: ADMIN-SERVICE
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://ls-563b8ec68f8dabb8b2906d3d1e42e400956564f9.c50qwuc20o0g.ap-south-1.rds.amazonaws.com/buildlive_admin
-    username: dbmasteruser
-    password: 'SudhaRajan'
+    url: jdbc:mysql://localhost:3306/buildlive_admindb
+    username: root
+    password: '@77SUDHA'
   jpa:
     hibernate:
       ddl-auto: update
