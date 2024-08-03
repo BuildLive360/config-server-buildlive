@@ -37,9 +37,9 @@ spring:
     name: ADMIN-SERVICE
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/buildlive_admindb
-    username: root
-    password: '@77SUDHA'
+    url: jdbc:mysql://avnadmin:AVNS_YBE-tFQ-tTO-KOjHgos@mysql-1a5bf3cf-infobuildlive360-7bcc.e.aivencloud.com:24001/buildlive_admin?ssl-mode=REQUIRED
+    username: avnadmin
+    password: 'AVNS_YBE-tFQ-tTO-KOjHgos'
   jpa:
     hibernate:
       ddl-auto: update
